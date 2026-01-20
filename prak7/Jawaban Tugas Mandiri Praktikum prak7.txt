@@ -1,0 +1,7 @@
+Jawaban Tugas Mandiri Praktikum Streaming Analytics (Kafka & Spark)
+
+Penambahan kolom Total Quantity per produk
+Pada analisis streaming, ditambahkan agregasi baru untuk menghitung total quantity (jumlah barang terjual) per produk. Hal ini dilakukan dengan menjumlahkan kolom quantity pada setiap produk menggunakan fungsi sum(quantity) bersamaan dengan perhitungan total revenue. Dengan demikian, hasil akhir analisis menampilkan dua informasi utama, yaitu total penjualan (total_sales) dan total jumlah barang terjual (total_quantity) untuk setiap jenis produk.
+
+Filter transaksi dengan price > 1.000.000
+Sebelum proses agregasi, data streaming difilter sehingga hanya transaksi dengan harga lebih dari 1.000.000 yang diproses oleh Spark. Filter ini bertujuan untuk menganalisis transaksi bernilai tinggi saja dan mengabaikan transaksi dengan nilai kecil. Dengan penerapan filter ini, hasil analisis menjadi lebih relevan untuk melihat kontribusi produk dengan harga tinggi terhadap total penjualan.
