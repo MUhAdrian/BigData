@@ -1,4 +1,4 @@
 # BigData
-ada 4 praktikum</br>
+ada 4 praktikum + 3 prak lainnya</br>
 # Laporan Praktikum
 
